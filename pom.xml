@@ -6,20 +6,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.7</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 	<groupId>it.gov.pagopa.cstar.ms</groupId>
-	<!--
-	<groupId>it.gov.pagopa.rtd.ms</groupId>
-	-->
 	<artifactId>cstar-ms-template</artifactId>
-	<!--
-	<artifactId>rtd-ms-my-service</artifactId>
-	-->
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cstar-ms-template</name>
 	<description>Micro-service template to be used in CSTAR platform</description>
-	<!--<description>My description</description>-->
 	<properties>
 		<java.version>11</java.version>
 	</properties>
