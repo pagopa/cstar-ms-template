@@ -20,11 +20,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-//@RunWith(SpringRunner.class)
 @WebMvcTest(RestControllerImpl.class)
 @Slf4j
-//@DataJpaTest
-class RestControllerImplTest {
+class RestControllerTest {
 
   @Autowired
   private MockMvc mockMvc;
